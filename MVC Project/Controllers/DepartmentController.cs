@@ -13,5 +13,18 @@ namespace MVC_Project.Controllers
         {
             return View();
         }
+
+        public ActionResult Design()
+        {
+            return View();
+        }
+        public ActionResult Engineering()
+        {
+            return View();
+        }
+        public ActionResult HR()
+        {
+            return View();  
+        }
     }
 }
