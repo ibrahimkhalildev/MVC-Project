@@ -120,10 +120,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BranchController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProjectController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\TestModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -177,10 +181,23 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Project\Earthwork.cshtml" />
+    <Content Include="Views\Department\Index.cshtml" />
+    <Content Include="Views\Branch\Dhaka.cshtml" />
+    <Content Include="Views\Branch\Chattogram.cshtml" />
+    <Content Include="Views\Branch\Khulna.cshtml" />
+    <Content Include="Views\Branch\Rajshahi.cshtml" />
+    <Content Include="Views\Branch\Index.cshtml" />
+    <Content Include="Views\Department\HR.cshtml" />
+    <Content Include="Views\Department\Design.cshtml" />
+    <Content Include="Views\Department\Engineering.cshtml" />
+    <Content Include="Views\Project\Bridge.cshtml" />
+    <Content Include="Views\Project\Road.cshtml" />
+    <Content Include="Views\Project\Canal.cshtml" />
+    <Content Include="Views\Project\Embankment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
