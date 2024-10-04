@@ -195,6 +195,7 @@
     <Content Include="Views\Project\Road.cshtml" />
     <Content Include="Views\Project\Canal.cshtml" />
     <Content Include="Views\Project\Embankment.cshtml" />
+    <Content Include="Views\Project\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
