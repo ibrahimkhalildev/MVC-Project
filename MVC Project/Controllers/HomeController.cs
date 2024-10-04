@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVC_Project.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,8 @@ namespace MVC_Project.Controllers
     {
         public ActionResult Index()
         {
+            string ssds = "";
+            TestModel ss = new TestModel();
             return View();
         }
 

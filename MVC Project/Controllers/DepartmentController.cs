@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace MVC_Project.Controllers
 {
-    public class ProjectController : Controller
+    public class DepartmentController : Controller
     {
-        // GET: Project
-        public ActionResult Earthwork()
+        // GET: Department
+        public ActionResult Index()
         {
             return View();
         }
