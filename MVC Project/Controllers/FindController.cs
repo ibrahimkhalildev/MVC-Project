@@ -6,27 +6,22 @@ using System.Web.Mvc;
 
 namespace MVC_Project.Controllers
 {
-    public class BranchController : Controller
+    public class FindController : Controller
     {
-        // GET: Branch
-        public ActionResult Branch()
+        // GET: Find
+        public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult Dhaka()
+        public ActionResult Employee()
         {
             return View();
         }
-        public ActionResult Chattogram()
+        public ActionResult Staff()
         {
             return View();
         }
-        public ActionResult Khulna()
-        {
-            return View();
-        }
-        public ActionResult Rajshahi()
+        public ActionResult Student()
         {
             return View();
         }

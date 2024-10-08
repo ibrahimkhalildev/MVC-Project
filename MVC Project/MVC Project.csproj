@@ -122,11 +122,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BranchController.cs" />
     <Compile Include="Controllers\DepartmentController.cs" />
+    <Compile Include="Controllers\FindController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Branch.cs" />
     <Compile Include="Models\TestModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -187,7 +189,7 @@
     <Content Include="Views\Branch\Chattogram.cshtml" />
     <Content Include="Views\Branch\Khulna.cshtml" />
     <Content Include="Views\Branch\Rajshahi.cshtml" />
-    <Content Include="Views\Branch\Index.cshtml" />
+    <Content Include="Views\Branch\Branch.cshtml" />
     <Content Include="Views\Department\HR.cshtml" />
     <Content Include="Views\Department\Design.cshtml" />
     <Content Include="Views\Department\Engineering.cshtml" />
@@ -196,6 +198,12 @@
     <Content Include="Views\Project\Canal.cshtml" />
     <Content Include="Views\Project\Embankment.cshtml" />
     <Content Include="Views\Project\Index.cshtml" />
+    <Content Include="Views\Find\Index.cshtml" />
+    <Content Include="Views\Find\_PartialEmployeeSearch.cshtml" />
+    <Content Include="Views\Find\Employee.cshtml" />
+    <Content Include="Views\Find\Student.cshtml" />
+    <Content Include="Views\Find\Staff.cshtml" />
+    <Content Include="Views\Shared\_LayoutFind.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -232,8 +240,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
