@@ -125,6 +125,7 @@
     <Compile Include="Controllers\FindController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Controllers\SearchTemplateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -204,9 +205,11 @@
     <Content Include="Views\Find\Student.cshtml" />
     <Content Include="Views\Find\Staff.cshtml" />
     <Content Include="Views\Shared\_LayoutFind.cshtml" />
+    <Content Include="Views\Shared\_SearchTemplate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\SearchTemplate\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

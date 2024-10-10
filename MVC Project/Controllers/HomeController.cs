@@ -11,7 +11,6 @@ namespace MVC_Project.Controllers
     {
         public ActionResult Index()
         {
-            string ssds = "";
             TestModel ss = new TestModel();
             return View();
         }
