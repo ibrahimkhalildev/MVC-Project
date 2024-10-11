@@ -16,7 +16,7 @@ namespace MVC_Project.Models
 
             Search search = new Search();
             search.BranchName = "Bangladesh";
-            search.BranchCode = 110;
+            search.BranchCode = 100;
             lst.Add(search);
 
             search = new Search();

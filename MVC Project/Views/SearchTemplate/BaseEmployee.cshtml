@@ -1,0 +1,14 @@
+﻿
+@*Binding a Model with a view page*@
+
+@model MVC_Project.Models.Employee
+
+@{
+    Layout = "~/Views/Shared/_SearchTemplateLayout.cshtml";
+}
+
+<br/>
+
+@Html.TextBoxFor(Emp => Emp.EmployeeName)
+@Html.TextBoxFor(Emp => Emp.EmployeeCode)
+

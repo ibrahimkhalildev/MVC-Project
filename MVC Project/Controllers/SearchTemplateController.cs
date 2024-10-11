@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVC_Project.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -21,7 +22,15 @@ namespace MVC_Project.Controllers
         {
             return View();
         }
-        public ActionResult Employee()
+        public ActionResult BaseEmployee()
+        {
+            Employee obj = new Employee();
+            obj.EmployeeName = "Ibrahim Khalil";
+            obj.EmployeeCode = "EMP 001";
+
+            return View(obj);
+        }
+        public ActionResult Search()
         {
             return View();
         }

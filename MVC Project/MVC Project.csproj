@@ -133,6 +133,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Branch.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Search.cs" />
     <Compile Include="Models\TestModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -221,10 +222,11 @@
     <Content Include="Views\SearchTemplate\Index.cshtml" />
     <Content Include="Views\SearchTemplate\Teacher.cshtml" />
     <Content Include="Views\SearchTemplate\Student.cshtml" />
-    <Content Include="Views\SearchTemplate\Employee.cshtml" />
+    <Content Include="Views\SearchTemplate\BaseEmployee.cshtml" />
     <Content Include="Views\SearchTemplate\_PartialIndexPage.cshtml" />
     <Content Include="Views\SearchTemplate\_SutdentPartialContent.cshtml" />
     <Content Include="Views\Shared\_SearchTemplateLayout.cshtml" />
+    <Content Include="Views\SearchTemplate\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
