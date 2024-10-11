@@ -1,6 +1,11 @@
-﻿@{
+﻿@using MVC_Project.Models
+
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@{ 
+    List<Branch> lst = Branch.GetBranch();
+}
 
 <p>This is Branch Index Page</p>
